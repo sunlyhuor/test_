@@ -1,0 +1,56 @@
+body{
+    height: 200vh;
+}
+.box1{
+    padding: 50px;
+    background-color: red;
+
+    top: 0px;
+    width: 100%;
+}
+
+.box2{
+    padding: 50px;
+    background-color: yellow;
+}
+
+.box3{
+    padding: 10px;
+    background-color: blue;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.box4{
+    border: 1px solid red;
+    width: 40%;
+    height: 20vh;
+    /* overflow: auto; */
+    overflow-y: scroll;
+    /* float: right; */
+}
+
+.box5{
+    padding: 50px;
+    background-color: gray;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    opacity: 1;
+}
+
+.box5 h1{
+    color: red;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+button:active{
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.header img{
+    border-radius: 7px;
+}
+
+.header-img-left img{
+    width: 100%;
+    height: 100%;
+}
+.header-img-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.header-img-left,.header-img-right{
+    height: 250px;
+}
+
+.navbar{
+    width: 100%;
+    background-color: blue;
+    justify-content: center;
+    margin:-20px 0px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+}
+.navbar li{
+    padding: 20px;
+}
+.navbar a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navbar li:nth-child(7){
+    color: black;
+    background-color:  #8d8d8d;
+    margin-right: 5px;
+}
+.navbar li:nth-child(8){
+    color: black;
+    background-color: #8d8d8d;
+}
+/* .navbar li:nth-child😎 a{
+    color: black;
+     background-color: beige;
+} */
+.content{
+    padding:20px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(red, green, blue);
+}
+.box{
+    width: 100%;
+    text-align: center;    
+}
+.box h1{
+    color: blueviolet;
+}
+.block{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:0 60px ;
+    position: relative;
+}
+
+.sblock button{
+    height: 35px;
+    width: 120px;
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.arrow-left,.arrow-right{
+    position: absolute;
+}
+.arrow-left{
+    left: 200px;
+    top: 50px;
+}
+.arrow-right{
+    right: 200px;
+    top: 50px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.card{
+    width: 30%;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+
+.card-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-title h3{
+    color: blueviolet;
+}
+
+.card-btn > div{
+    padding:0px 10px;
+}
+
+.card-title,.card-description,.card-time{
+    padding:0px 20px;
+}
+
+.card-time span{
+    opacity: 0.5;
+}
+
+.card-btn button{
+    width: 100%;
+    padding: 15px 0px;
+    color: white;
+    font-weight: bold;
+    background-color: #5fa8dc;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
